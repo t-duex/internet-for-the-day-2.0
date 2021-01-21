@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ribbons-and-banners';
+  src: url('/fonts/ribbons-and-banners-webfont.woff2') format('woff2'),
+       url('/fonts/ribbons-and-banners-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'market-deco';
+  src: url('/fonts/market_deco-webfont.woff2') format('woff2'),
+       url('/fonts/market_deco-webfont.woff') format('woff');
+}
