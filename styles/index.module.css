@@ -23,6 +23,10 @@
     user-select: none;
   }
 
+  .cards {
+    padding-top: 50px;
+  }
+
   .card_media {
     width: 100px;
     height: 120px;
@@ -36,15 +40,27 @@
     background-image: url('/images/grumpycat.jpg');
   }
 
-  .top_media {
+  .reverse_media {
+    background-image: url('/images/calmcat.jpg');
+  }
+
+  .best_of_month_media {
     background-image: url('/images/excitedcat.jpg');
+  }
+
+  .best_of_year_media {
+    background-image: url('/images/smallcat.png');
+  }
+
+  .best_of_all_time_media {
+    background-image: url('/images/sleepycat.jpg');
   }
 
   .card_content {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left: 5px;
     font-family: 'market-deco';
     height: 120px;
@@ -72,6 +88,8 @@
     height: 120px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: rgba(138,138,138,0.2);
     text-decoration: none;
     color: inherit;
