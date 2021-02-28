@@ -93,6 +93,13 @@
     background-color: rgba(138,138,138,0.2);
     text-decoration: none;
     color: inherit;
+    will-change: transform;
+    transition: transform 250ms;
+  }
+
+  .card:hover {
+    transition: transform 125ms;
+    transform: scaleX(1.02) scaleY(1.02);
   }
 
   @media screen and (max-width: 600px) {
